@@ -55,6 +55,15 @@ canvas.addEventListener("touchend",()=>{
 isTouchActive=false;
 ctx.beginPath();
 });
+function setTool(selectedTool) {
+    tool = selectedTool;
+    penBtn.classList.toggle("active", tool === "draw");
+    eraserBtn.classList.toggle("active", tool === "erase");
+}
+
+function clearCanvas() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+}
 function draw(e){
 if(!isDrawing)return;
 const x=e.clientX-canvas.offsetLeft;
