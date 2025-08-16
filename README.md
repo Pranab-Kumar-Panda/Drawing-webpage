@@ -1,6 +1,6 @@
 # 🎨 Drawing Board Web App
 
-A simple and responsive **Drawing Web Application** made using <b>HTML, CSS, and JavaScript</b>. You can draw freely on the canvas, change colors and brush sizes, erase, and even download your masterpiece! 🖌️✨
+A simple and responsive **Drawing Web Application** made using <b><i>HTML, CSS, and JavaScript</b></i>. You can draw freely on the canvas, change colors and brush sizes, erase, and even download your masterpiece! 🖌️✨
 
 ## 🛠 Features
 
